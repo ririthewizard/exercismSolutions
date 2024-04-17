@@ -6,10 +6,10 @@ namespace log_line {
     }
 
     std::string log_level(std::string line) {
-        return line.substr(line.find("[") + 1, line.find("]"));
+        return line.substr(1, line.find("]") - 1);
     }
 
     std::string reformat(std::string line) {
-        return std::string("Nope");
+        return message(line) + " (" + log_level(line) + ")";
     }
 }
