@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ririw\Exercism\cpp\log-levels\build\CMakeFiles\34741514ab540890d633b39a9feff7e4\test_log-levels.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ririw\Exercism\cpp\log-levels\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ririw\Exercism\cpp\log-levels\build\CMakeFiles\test_log-levels" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{81E02105-B34D-3B49-8412-07037FCA4EB7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

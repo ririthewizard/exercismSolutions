@@ -1,0 +1,10 @@
+^C:\USERS\RIRIW\EXERCISM\CPP\LOG-LEVELS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ririw/Exercism/cpp/log-levels -BC:/Users/ririw/Exercism/cpp/log-levels/build --check-stamp-file C:/Users/ririw/Exercism/cpp/log-levels/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
