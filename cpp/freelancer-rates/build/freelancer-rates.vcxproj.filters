@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ririw\Exercism\cpp\freelancer-rates\freelancer_rates_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ririw\Exercism\cpp\freelancer-rates\test\tests-main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ririw\Exercism\cpp\freelancer-rates\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BFA123C4-C17F-3FE5-9EB5-D80F65ED99DC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

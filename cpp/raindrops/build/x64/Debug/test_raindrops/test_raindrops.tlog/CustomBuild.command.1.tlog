@@ -1,0 +1,20 @@
+^C:\USERS\RIRIW\EXERCISM\CPP\RAINDROPS\BUILD\CMAKEFILES\F32B534E1931FC713DE424E3DA27B17B\TEST_RAINDROPS.RULE
+setlocal
+Debug\raindrops.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\RIRIW\EXERCISM\CPP\RAINDROPS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ririw/Exercism/cpp/raindrops -BC:/Users/ririw/Exercism/cpp/raindrops/build --check-stamp-file C:/Users/ririw/Exercism/cpp/raindrops/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,20 @@
+^C:\USERS\RIRIW\EXERCISM\CPP\FREELANCER-RATES\BUILD\CMAKEFILES\1B09DED1CB7B8789051F45E37FE17B6F\TEST_FREELANCER-RATES.RULE
+setlocal
+Debug\freelancer-rates.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\RIRIW\EXERCISM\CPP\FREELANCER-RATES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ririw/Exercism/cpp/freelancer-rates -BC:/Users/ririw/Exercism/cpp/freelancer-rates/build --check-stamp-file C:/Users/ririw/Exercism/cpp/freelancer-rates/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
